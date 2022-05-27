@@ -40,17 +40,9 @@ const getFee = async (provider) => {
 }
 
 const SendToken = () => {
-  // const defContractAddress = "0x6702E7F46D778291bd71344d5F9C4D6CBb8774b6";
-  // const tokenId = 1;
   const [contractAddress, setContractAddress] = useState("");
   const [tokenId, setTokenId] = useState("");
   const [recipientAddress, setRecipientAddress] = useState("");
-
-  // const accounts = [
-  //   "0x11382C88E24E650DbBeF5632eA75464c15bfd66b",
-  //   "0x5Be399328A4CC9C7fF0a377028ba5aF7e0f743d6"
-  // ]
-
 
   const handleSend = async () => {
 
